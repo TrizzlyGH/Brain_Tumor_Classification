@@ -100,6 +100,3 @@ pip install -r requirements.txt
 ## ✍️ Kontributor
 - Muhammad Nasywan Sulthan Muyassar Arhata
 - GitHub : https://github.com/TrizzlyGH
-
----
-Template dokumentasi dan struktur notebook mengacu pada `CNN.ipynb` dan best practice open source untuk kemudahan replikasi dan pembelajaran.
