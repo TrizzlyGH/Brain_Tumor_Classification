@@ -32,9 +32,11 @@ Model CNN yang digunakan terdiri dari:
 
 - **Akurasi Training & Validasi**:  
   Contoh plot akurasi
+  
   ![alt text](image.png)
 - **Contoh Prediksi**:  
   Contoh prediksi gambar
+  
   ![alt text](image-1.png)  
   _Gambar MRI dengan prediksi: "Tumor detected"_
 
