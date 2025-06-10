@@ -31,9 +31,9 @@ Model CNN yang digunakan terdiri dari:
 ## 📊 Hasil & Visualisasi
 
 - **Akurasi Training & Validasi**:  
-  ![Contoh plot akurasi](![alt text](image.png))
+  ![Contoh plot akurasi] (![alt text](image.png))
 - **Contoh Prediksi**:  
-  ![Contoh prediksi gambar](![alt text](image-1.png))  
+  ![Contoh prediksi gambar] (![alt text](image-1.png))  
   _Gambar MRI dengan prediksi: "Tumor detected"_
 
 ## 📁 Struktur Folder
