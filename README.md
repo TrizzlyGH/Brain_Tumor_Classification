@@ -2,6 +2,40 @@
 
 Proyek ini membangun sistem klasifikasi gambar MRI otak menggunakan Convolutional Neural Network (CNN) untuk membedakan antara gambar dengan tumor dan tanpa tumor. Notebook didokumentasikan secara edukatif dan terstruktur, mengikuti template pembelajaran modern.
 
+## 🏗️ Arsitektur Model
+
+Model CNN yang digunakan terdiri dari:
+- **Conv2D**: Layer konvolusi untuk ekstraksi fitur.
+- **MaxPooling2D**: Reduksi dimensi spasial.
+- **Flatten**: Meratakan output konvolusi.
+- **Dense**: Layer fully connected untuk klasifikasi.
+- **Dropout**: Regularisasi untuk mencegah overfitting.
+- **Output**: 1 neuron dengan aktivasi sigmoid (klasifikasi biner).
+
+| Layer            | Output Shape      | Keterangan                |
+|------------------|------------------|---------------------------|
+| Conv2D (3x3, 32) | (224, 224, 32)   | Ekstraksi fitur awal      |
+| MaxPooling2D     | (112, 112, 32)   | Reduksi dimensi           |
+| Flatten          | (802816)         | Meratakan tensor          |
+| Dense (256)      | (256)            | Fully connected           |
+| Dropout (0.5)    | (256)            | Regularisasi              |
+| Dense (1, sigmoid)| (1)             | Output klasifikasi        |
+
+## ⚙️ Cara Kerja Sistem
+
+1. **Preprocessing**: Gambar MRI diresize ke 224x224 piksel, dinormalisasi, dan diberi label.
+2. **Training**: Model CNN dilatih membedakan gambar tumor dan non-tumor.
+3. **Evaluasi**: Model diuji pada data yang belum pernah dilihat.
+4. **Prediksi**: Pengguna dapat mengupload gambar MRI baru untuk diprediksi.
+
+## 📊 Hasil & Visualisasi
+
+- **Akurasi Training & Validasi**:  
+  ![Contoh plot akurasi](![alt text](image.png))
+- **Contoh Prediksi**:  
+  ![Contoh prediksi gambar](![alt text](image-1.png))  
+  _Gambar MRI dengan prediksi: "Tumor detected"_
+
 ## 📁 Struktur Folder
 
 ```

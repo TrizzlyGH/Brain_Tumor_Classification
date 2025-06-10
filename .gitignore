@@ -21,3 +21,7 @@ ENV/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Ignore files
+CNN.ipynb
+readme (2).md
