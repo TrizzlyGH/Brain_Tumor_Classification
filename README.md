@@ -95,7 +95,6 @@ pip install -r requirements.txt
 - Notebook otomatis mendeteksi environment (Colab/lokal) untuk upload gambar dan path dataset.
 - File model hasil training (`tumor_otak.keras`) otomatis di-ignore oleh git.
 - Folder dataset bisa di-ignore dengan mengaktifkan baris terkait di `.gitignore`.
-- Struktur dan dokumentasi notebook mengacu pada `CNN.ipynb` untuk konsistensi dan kemudahan belajar.
 
 ## ✍️ Kontributor
 - Muhammad Nasywan Sulthan Muyassar Arhata
