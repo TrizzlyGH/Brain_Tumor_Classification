@@ -48,7 +48,6 @@ Model CNN yang digunakan terdiri dari:
 │   ├── yes/
 │   └── no/
 ├── Tumor_Otak.ipynb          # Notebook utama klasifikasi tumor otak
-├── CNN.ipynb                 # Template referensi CNN (MNIST)
 ├── requirements.txt          # Daftar dependensi Python
 ├── .gitignore                # File untuk mengabaikan file tertentu di git
 └── README.md                 # Dokumentasi proyek
